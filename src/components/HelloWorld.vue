@@ -1,6 +1,12 @@
 <template>
   <div class="hello">
-    什么玩意
+    <p>我来试试插槽</p>
+    <slot name="name1">
+      显示什么呢
+    </slot>
+    <slot name="name2">
+      是这样吧
+    </slot>
   </div>
 </template>
 
